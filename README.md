@@ -7,4 +7,4 @@
 
 ## មេរៀន
 
-១.  [ការរៀបចំដំឡើង  (Prepare The Working Environment)](#)
+១.  [ការរៀបចំដំឡើង  (Prepare The Working Environment)](https://github.com/samnangcattor/days-of-angular/blob/main/Day001-Installation.md)
