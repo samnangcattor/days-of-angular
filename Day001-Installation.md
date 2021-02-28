@@ -21,7 +21,7 @@
 - តំឡើង [TypeScript](https://www.typescriptlang.org/)
 - តំឡើង [Angular Cli](https://cli.angular.io/)
 
-### NODEJS
+## NODEJS
 
 មុនដំបូងបង្អស់ យើងត្រូវការតំឡើង `NodeJS` តាមរយះ ការដោនឡូត វាពីគេហទំព័រ [https://nodejs.org/en/download/](https://nodejs.org/en/download/) ។ ក្នុងការ
 ជ្រើរើសយើងសង្គេតឃើញថា `NodeJS` របស់យើងមាន ២ប្រភេទ:
@@ -37,7 +37,7 @@
 node -v
 npm -v
 ```
-### Angular Cli
+## Angular Cli
 
 ដើម្បីសរសេរកូដ Angular អាចទៅកើតយើង ត្រូវតែចាំបាច់តំឡើង `Angular Cli` ។ ដំនើរការតំឡើងនៃវាមានលំដាប់លំដោយដូចខាងក្រោយនេះ: (យើងត្រូវការតំឡើងវាតាមរយះ `Terminal`)
 
