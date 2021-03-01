@@ -33,7 +33,7 @@
  
 `Component` ជាបន្ដុំនៃប្លកកូដ `HTML` ដែលកកើតឡើងដោយ `Angular` ។ តែបើយើងនិយាយពីគេហទំព័រវិញ `Component` ជាផ្នែកតូចមួយនៃគេហទំព័រនោះ ។ គឺវាមានន័យ គេហទំព័រទាំងមូល អាចកកើតឡើងបានដោយបន្ដុំនៃ `Commponent` តូចៗ ជាច្រើន។
 
-ឧទារហ៍ណ: [youtube.com](youtube.com) វាកកើតដោយ `Component`មានដូចជា:
+ឧទារហ៍ណ: [youtube.com](https://www.youtube.com/) វាកកើតដោយ `Component`មានដូចជា:
 
 - `Left Menu`
 - `Header`
