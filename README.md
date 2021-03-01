@@ -8,3 +8,4 @@
 ## មេរៀន
 
 ១.  [ការរៀបចំដំឡើង  (Prepare The Working Environment)](https://github.com/samnangcattor/days-of-angular/blob/main/Day001-Installation.md)
+២.  [ការចាប់ផ្ដើមចូលទៅកាន់ Angular](https://github.com/samnangcattor/days-of-angular/blob/main/Day002-AngularApp.md)
