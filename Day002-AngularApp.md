@@ -42,11 +42,8 @@
  
  ## របៀបបង្កើត Component ថ្មី
  
- ការបង្កើត `Commponent` មួយបានយើងអាចប្រើប្រាស់វិធី ២យ៉ាងងាយ:
+ ការបង្កើត `Commponent` មួយបានយើងអាចប្រើប្រាស់វិធីយ៉ាងងាយ:
  - ប្រើប្រាស់ ពាក្យគន្លឺះដើម្បី អោយវាធ្វើការបង្កើតដោយខ្លួនអែង (auto)
- - ការបង្កើតដោយដៃផ្ទាល់ (custom)
- 
- 1). ការបង្កើតដោយប្រើពាក្យគន្លឹះយើង:
 ```
 ng generate component <ឈ្មោះ-component>
 ng g component <ឈ្មោះ-component>
@@ -58,4 +55,20 @@ ng g component <ឈ្មោះ-component>
  src/app/hello/hello.component.spec.ts
  src/app/hello/hello.component.ts
  ```
- យើងសង្កេតឃើញថា វាធ្វើបង្កើតអោយយើងនៅ ហ្វិលចំនួន ៤ដែលមានមុខងារស្រដៀងទៅនឹងហ្វិលដែលបានរៀបរាប់ខាងដើម។
+ យើងសង្កេតឃើញថា វាធ្វើបង្កើតអោយយើងនៅ ហ្វិលចំនួន ៤ដែលមានមុខងារស្រដៀងទៅនឹងហ្វិលដែលបានរៀបរាប់ខាងដើម។ តោះយើងបន្ដដំនើររបស់យើងទៅកាន់ ហ្វិលដែលចំាបាច់របស់ហៅថា `Component` នោះគឺ ហ្វិល `src/app/hello/hello.component.ts` ។ នៅក្នុងហ្វិល នេះយើងអាចសង្កេតឃេីញថាវាមានទំរង់ដូចខាងក្រោម:
+```
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-hello',
+  templateUrl: './hello.component.html',
+  styleUrls: ['./hello.component.scss']
+})
+export class HelloComponent {}
+```
+- `selector` គឺថា `tag`នៃ`component`វាមានទំរង់ដូចខាងក្រោមនេះ
+```
+<tag-name></tag-name>
+```
+- `templateUrl` សម្រាប់កំនត់ ទីតាំងរបស់ `HTML`
+- `styleUrls` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `style`
