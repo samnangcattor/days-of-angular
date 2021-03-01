@@ -73,6 +73,24 @@ export class HelloComponent {}
 - `templateUrl` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `HTML`
 - `styleUrls` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `style`
 
+រួចហើយយើងត្រូវតែដាក់បញ្ចូល `HelloComponent` ចូលទៅកាន់ `app.module.ts` នេះគឺច្បាប់របស់ `Angular` ។ ជាធម្មតារាល់ គ្រប់`Component` ទំាងអស់ដើម្បីអោយវាមានដំនើរកើតយើងត្រូវដាក់វាចូលទៅដាក់ `module` ណាមួយ ។ដូច្នោះហើយយើងនឹងដាក់ `HelloComponent` ចូលទៅកាន់ `app.module.ts`
+```
+import { HelloComponent } from './hello/hello.component';
+
+...
+
+declarations: [
+  AppComponent,
+  HelloComponent,
+],
+```
+
+រួចហើយនៅក្នុង `src/app/hello/hello.component.html` យើងអាចសរសេរបន្ថែមនៅបន្ទាត់កូដដូចខាងក្រោម:
+
+```
+<app-hello></app-hello>
+```
+
 ## ឯកសារយោង
 - [https://angular.io/guide/architecture-components](https://angular.io/guide/architecture-components)
 - [https://angular.io/guide/architecture](https://angular.io/guide/architecture)
