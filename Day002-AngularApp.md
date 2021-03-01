@@ -70,5 +70,5 @@ export class HelloComponent {}
 ```
 <tag-name></tag-name>
 ```
-- `templateUrl` សម្រាប់កំនត់ ទីតាំងរបស់ `HTML`
+- `templateUrl` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `HTML`
 - `styleUrls` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `style`
