@@ -72,3 +72,7 @@ export class HelloComponent {}
 ```
 - `templateUrl` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `HTML`
 - `styleUrls` សម្រាប់កំនត់ ទីតាំងរបស់ហ្វិល `style`
+
+## ឯកសារយោង
+- [https://angular.io/guide/architecture-components](https://angular.io/guide/architecture-components)
+- [https://angular.io/guide/architecture](https://angular.io/guide/architecture)
